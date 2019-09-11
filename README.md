@@ -1,5 +1,5 @@
 # scraper-auto-trader
-A python project utilising the scrapy framework to scrape auto trader ad information. 
+A python project utilising the scrapy framework to scrape Auto Trader ad information. 
 
 Data to be used for a personal Machine Learning project to predict car ad pricing based on a number of feature variables.
 
