@@ -2,3 +2,8 @@ auto_trader_scraper/backup_url_lists/*
 .vscode/settings.json
 __pycache__/
 *.pyc
+archive/
+auto_trader_scraper/.vscode/settings.json
+*.csv
+backup_url_lists/
+.vscode/

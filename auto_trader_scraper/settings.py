@@ -55,6 +55,7 @@ COOKIES_ENABLED = False
 #DOWNLOADER_MIDDLEWARES = {
 #    'auto_trader_scraper.middlewares.AutoTraderScraperDownloaderMiddleware': 543,
 #}
+REDIRECT_ENABLED = False
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
