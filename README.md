@@ -6,3 +6,6 @@ Data to be used for a personal Machine Learning project to predict car ad pricin
 NOTE: This project is for educational purposes and should not be used for purposes that would break the TOS of the Auto Trader platform.
 
 README in progress...
+
+# Actions
+- add 'extra detail' into ad information
