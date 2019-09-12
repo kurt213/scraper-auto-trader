@@ -42,11 +42,11 @@ def keySpecs(response, url):
             year_reg = re.findall(r'(?:.*)(\d\d\d\d)(?:.*\()(.*)(?:\))', key_specs_list[year_reg_index])
         elif 'miles' in s:
             mileage_index = i
-            mileage = re.match(r'[1-9]\d{0,2}(\.\d{3})*(,\d+)?', key_specs_list[mileage_index])
+            mileage = re.match(r'[0-9]\d{0,2}(\.\d{3})*(,\d+)?', key_specs_list[mileage_index])
             mileage = mileage[0]
         elif re.match('.*L$', s):
             engine_index = i
-            engine_size = re.match(r'[1-9]\d*(\.\d+)?', key_specs_list[engine_index])
+            engine_size = re.match(r'[0-9]\d*(\.\d+)?', key_specs_list[engine_index])
             engine_size = engine_size[0]
         elif 'bhp' in s:
             bhp_index = i

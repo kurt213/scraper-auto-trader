@@ -58,4 +58,5 @@
 # seller location
 # response.xpath('//div[contains(@class, "seller-location")]/text()').re(r'\d+')
 
-# vehicle price
+# extra detail - new
+#response.xpath('//ul[contains(@class, "listing-extra-detail")]/li/text()').getall()

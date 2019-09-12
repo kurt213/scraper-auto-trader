@@ -49,6 +49,7 @@ class CarSpider(scrapy.Spider):
                 'ad_id': ad.xpath('.//h2[contains(@class, "listing-title")]/a/@href').re(r'(?:\/)([0-9]{10,20})(?:\?)'),
                 'number_images': ad.xpath('.//div[contains(@class, "listing-image-count")]/text()')[1].re(r'\d+'),
                 'attention_grabber': ad.xpath('.//p[contains(@class, "listing-attention-grabber")]/text()').get(),
+                'extra_detail': ad.xpath('.//ul[contains(@class, "listing-extra-detail")]/li/text()').get(),
                 'category_damage': ad.xpath('.//ul[contains(@class, "write-off-cat")]/li/a/@data-writeoff-cat').get(),
                 'year': key_specs_dict['year'],
                 'registration': key_specs_dict['registration'],
