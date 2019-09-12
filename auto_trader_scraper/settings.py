@@ -55,7 +55,6 @@ COOKIES_ENABLED = False
 #DOWNLOADER_MIDDLEWARES = {
 #    'auto_trader_scraper.middlewares.AutoTraderScraperDownloaderMiddleware': 543,
 #}
-REDIRECT_ENABLED = False
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
@@ -89,3 +88,8 @@ AUTOTHROTTLE_TARGET_CONCURRENCY = 1.0
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+REDIRECT_ENABLED = False
+
+LOG_FILE = 'log.txt'
+LOG_LEVEL = 'INFO'

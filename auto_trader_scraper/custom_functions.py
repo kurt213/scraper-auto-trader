@@ -28,9 +28,9 @@ def keySpecs(response, url):
     body_type = 'N/A'
     doors = 'N/A'
 
-    vehicle_make = re.findall(r'(?:make=)([A-Z0-9%]+)(?:&|$)', url)
+    vehicle_make = re.findall(r'(?:make=)([A-Z0-9%\-]+)(?:&|$)', url)
     vehicle_make = vehicle_make[0].replace('%20', ' ')
-    vehicle_model = re.findall(r'(?:model=)([A-Z0-9%]+)(?:&|$)', url)
+    vehicle_model = re.findall(r'(?:model=)([A-Z0-9%\-!\+/]+)(?:&|$)', url)
     vehicle_model = vehicle_model[0].replace('%20', ' ')
     
     key_specs_list = response
