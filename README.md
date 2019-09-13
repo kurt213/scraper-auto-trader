@@ -84,5 +84,9 @@ When the spiders are running, there will be some high level information in the c
 
 For more detail, a *log.txt* file is generated that shows more detailed information such as time spider run, errors, number of pages scraped etc.
 
-# Actions
+## Extra Information
+
+Hope you enjoy this scraping tool. Please let me know your feedback or suggestion for improvements. 
+
+#### To Do
 - add logging information to show progress to end user in command prompt
